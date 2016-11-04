@@ -1,0 +1,18 @@
+#!/bin/bash
+set -e
+set -x
+
+LOCATION=${LOCATION-"gentoo"}
+
+cp -L {,$LOCATION}/etc/resolv.conf
+
+if ! ( equery list app-emulation/qemu && \
+	[[ `equery uses app-emulation/qemu | egrep '[+](static-user|qemu_user_targets_arm)' | wc -l` == 2 ]] )
+then
+	echo "emerge app-emulation/qemu with USE flags static-user and qemu_user_targets_arm enabled"
+	exit 1
+fi
+
+cp {,$LOCATION}/usr/bin/qemu-arm
+
+service qemu-binfmt start

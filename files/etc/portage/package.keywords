@@ -1,0 +1,9 @@
+sys-kernel/linux-firmware **
+sec-policy/selinux* ~amd64
+
+app-admin/pass **
+app-misc/khard **
+
+net-im/gajim **
+dev-python/python-nbxmpp **
+net-im/mcabber **

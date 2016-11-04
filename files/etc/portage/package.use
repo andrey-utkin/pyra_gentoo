@@ -1,0 +1,55 @@
+sys-boot/grub -truetype device-mapper
+
+mail-client/mutt smtp imap pop mbox sasl gpg smime sidebar doc
+mail-mta/msmtp sasl
+net-mail/isync sasl
+
+media-video/ffmpeg faac network pic debug speex threads -rtmp opus -bindist vpx openssl
+media-video/vlc rtsp live ffmpeg dvb stream twolame httpd directfb matroska shout lua
+media-plugins/alsa-plugins pulseaudio
+media-plugins/gst-plugins-meta http vorbis
+media-video/x264 pic
+
+dev-libs/libpcre pcre16 static-libs
+dev-db/sqlite extensions
+dev-lang/python sqlite
+dev-vcs/git perl
+dev-vcs/subversion -dso perl
+net-analyzer/wireshark -gtk2
+sys-devel/llvm clang
+media-libs/gd fontconfig
+dev-libs/libxml2 python
+media-libs/mesa llvm
+sys-devel/gdb expat
+dev-libs/efl -xcb
+sys-libs/zlib minizip
+kde-base/kdelibs -acl -alsa -bzip2 -opengl -policykit -ssl -udev -udisks -upower
+sys-apps/smartmontools minimal
+
+net-misc/remmina freerdp
+net-wireless/wpa_supplicant -qt4
+
+dev-lang/mono minimal
+
+app-misc/task gnutls vim-syntax
+
+net-fs/samba client
+
+sys-libs/libseccomp static-libs
+
+app-misc/beep suid
+
+www-client/w3m fbcon gpm
+
+dev-python/PyQt5 widgets gui
+net-wireless/gnuradio doc examples channels pager log grc
+
+net-wireless/bluez doc
+
+app-emulation/qemu static-user qemu_user_targets_i386 qemu_user_targets_x86_64 -opengl
+dev-libs/glib static-libs
+sys-apps/attr static-libs
+app-arch/bzip2 static-libs
+sys-libs/zlib static-libs
+
+dev-util/cmake -qt5

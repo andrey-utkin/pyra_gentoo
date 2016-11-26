@@ -16,14 +16,13 @@ app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
 app-portage/smart-live-rebuild
+app-shells/bash
 app-shells/bash-completion
 app-text/djview
 app-text/gv
 app-text/mupdf
 app-text/qpdfview
 app-text/wgetpaste
-app-vim/colorschemes
-dev-lang/nasm
 dev-util/strace
 dev-util/valgrind
 dev-vcs/git
@@ -67,7 +66,6 @@ net-misc/ntp
 net-misc/openconnect
 net-misc/openvpn
 net-misc/socat
-net-misc/vpnc
 net-misc/youtube-dl
 net-p2p/qbittorrent
 net-p2p/syncthing

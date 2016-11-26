@@ -53,3 +53,10 @@ app-arch/bzip2 static-libs
 sys-libs/zlib static-libs
 
 dev-util/cmake -qt5
+
+sys-auth/consolekit policykit
+media-libs/libvpx svc
+dev-python/numpy lapack
+media-libs/gexiv2 introspection
+
+media-libs/libmypaint gegl

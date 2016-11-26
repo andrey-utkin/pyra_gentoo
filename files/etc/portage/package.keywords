@@ -3,7 +3,30 @@ sec-policy/selinux* ~amd64
 
 app-admin/pass **
 app-misc/khard **
+dev-python/vdirsyncer **
 
 net-im/gajim **
 dev-python/python-nbxmpp **
 net-im/mcabber **
+
+media-fonts/inconsolata **
+sys-apps/input-utils **
+
+sys-fs/mtpfs **
+net-im/sendxmpp **
+net-dialup/wvdial **
+app-text/djview **
+sys-firmware/bluez-firmware **
+sys-boot/syslinux **
+sys-boot/grub **
+kde-apps/konsole **
+app-emulation/qemu **
+sys-auth/oath-toolkit **
+sys-fs/simple-mtpfs **
+sys-block/whdd **
+
+# required by sys-boot/syslinux
+dev-lang/nasm **
+
+# required by net-dialup/wvdial
+net-libs/wvstreams **

@@ -108,7 +108,6 @@ sys-process/dcron
 sys-process/lsof
 virtual/pkgconfig
 www-client/chromium
-www-client/firefox
 www-client/links
 www-client/lynx
 www-client/w3m
